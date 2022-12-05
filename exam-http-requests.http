@@ -1,0 +1,23 @@
+### Добавить вопрос
+GET http://localhost:8080/exam/add?question=1&answer=a1
+
+### Добавить вопрос
+GET http://localhost:8080/exam/add?question=2&answer=a2
+
+### Добавить вопрос
+GET http://localhost:8080/exam/add?question=4&answer=a4
+
+### Добавить вопрос
+GET http://localhost:8080/exam/add?question=3&answer=a3
+
+### Удалить вопрос
+GET http://localhost:8080/exam/remove?question=2&answer=a2
+
+### Получить все вопросы
+GET http://localhost:8080/exam/getQue
+
+### Получить несколько вопросов
+GET http://localhost:8080/exam/get/10
+
+### Получить несколько вопросов
+GET http://localhost:8080/exam/get/3
